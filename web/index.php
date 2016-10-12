@@ -6,7 +6,7 @@
  */
 
 // Require the autoload created by composer
-require('file://' . __DIR__ . '/vendor/autoload.php');
+require('file://' . __DIR__ . '/../vendor/autoload.php');
 
 // Run the application using the specified config and return the exit status
 exit(

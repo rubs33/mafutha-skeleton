@@ -6,8 +6,8 @@
         }
     ],
     "require": {
-        "php": "7.0.0",
-        "rubs33/mafutha": "0.1.0"
+        "php": "7.1.0",
+        "rubs33/mafutha": "dev-master"
     },
     "autoload": {
         "psr-4": {

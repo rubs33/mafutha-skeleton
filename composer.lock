@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da65f54e4d15d0484c0c5e70a536c1c9",
-    "content-hash": "de182634d0cb7fcdb5424da017ab1f95",
+    "hash": "fa3e74b4257d91962f968a8ef73329c5",
+    "content-hash": "5de79f71d1fbb5e0a1124ba25733c5bf",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -117,16 +117,16 @@
         },
         {
             "name": "rubs33/mafutha",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rubs33/mafutha.git",
-                "reference": "526534414b559913ac289cb1b637643545e65be6"
+                "reference": "a68a8ac5a5a7a1254bbefeed4c6912b298a59d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rubs33/mafutha/zipball/526534414b559913ac289cb1b637643545e65be6",
-                "reference": "526534414b559913ac289cb1b637643545e65be6",
+                "url": "https://api.github.com/repos/rubs33/mafutha/zipball/a68a8ac5a5a7a1254bbefeed4c6912b298a59d3b",
+                "reference": "a68a8ac5a5a7a1254bbefeed4c6912b298a59d3b",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "guzzlehttp/psr7": "~1.0.0",
-                "php": "~7.0.0"
+                "php": "~7.1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.7.0"
@@ -169,20 +169,22 @@
                 "web"
             ],
             "support": {
-                "source": "https://github.com/rubs33/mafutha/tree/0.1.0",
+                "source": "https://github.com/rubs33/mafutha/tree/master",
                 "issues": "https://github.com/rubs33/mafutha/issues"
             },
-            "time": "2016-10-12 20:51:00"
+            "time": "2016-10-12 23:19:05"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "rubs33/mafutha": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.0.0"
+        "php": "7.1.0"
     },
     "platform-dev": []
 }
